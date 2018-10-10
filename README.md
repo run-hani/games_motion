@@ -1,6 +1,6 @@
 # games_motion
 
-> Kakao games motion guide
+> Games motion guide
 
 ## Build Setup
 
