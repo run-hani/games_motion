@@ -30,7 +30,7 @@ address,caption,cite,code,dfn,em,var{font-style:normal;font-weight:normal}
 
 .head_games{position:fixed;top:0;left:0;width:200px;height:100vh;z-index:100;padding:35px 20px;border-right:1px solid #efefef;background-color:#fff;box-sizing:border-box}
 .head_games .logo_games{margin-bottom:58px}
-.head_games .link_logo{display:block}
+.head_games .link_logo{display:block;text-decoration:none}
 .head_games .img_logo{display:block}
 .head_games .txt_logo{display:block;margin-top:6px;font-size:16px;color:#ababab}
 
