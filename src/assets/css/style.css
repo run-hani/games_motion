@@ -1,0 +1,70 @@
+/* reset */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,textarea,p,blockquote,th,td,input,select,button{margin:0;padding:0}
+fieldset,img{border:0 none}
+dl,ul,ol,menu,li{list-style:none}
+blockquote, q{quotes: none}
+blockquote:before, blockquote:after,q:before, q:after{content:'';content:none}
+input,select,textarea,button{vertical-align:middle}
+input::-ms-clear{display:none}
+button{border:0 none;background-color:transparent;cursor:pointer}
+body{background:#fff}
+body,th,td,input,select,textarea,button{font-size:14px;line-height:1.5;font-family:AppleSDGothicNeo-Regular,'Malgun Gothic','맑은 고딕',dotum,'돋움',sans-serif;color:#212220}
+a{color:#333;text-decoration:none}
+a:active, a:hover{text-decoration:underline}
+a:active{background-color:transparent}
+address,caption,cite,code,dfn,em,var{font-style:normal;font-weight:normal}
+
+.ir_pm{display:block;overflow:hidden;font-size:0;line-height:0;text-indent:-9999px}
+.ir_wa{display:block;overflow:hidden;position:relative;z-index:-1;width:100%;height:100%}
+.screen_out{overflow:hidden;position:absolute;width:0;height:0;line-height:0;text-indent:-9999px}
+.hide{display:none}
+.img_thumb{width:100%;vertical-align:top}
+
+.box_srch{margin-bottom:50px;}
+.box_srch .select_srch{display:inline-block;width:100px;height:38px;padding:0 10px;line-height:30px;font-size:14px;border:1px solid #000;vertical-align:top;box-sizing:border-box}
+.box_srch .tf_srch{display:inline-block;width:200px;height:38px;padding:0 10px;line-height:30px;border:1px solid #000;border-radius:5px;vertical-align:top;box-sizing:border-box}
+.box_srch{}
+
+.skipnavi{display:none}
+.wrap_games{min-width:1300px;padding-left:200px}
+
+.head_games{position:fixed;top:0;left:0;width:200px;height:100vh;z-index:100;padding:35px 20px;border-right:1px solid #efefef;background-color:#fff;box-sizing:border-box}
+.head_games .logo_games{margin-bottom:58px}
+.head_games .link_logo{display:block}
+.head_games .img_logo{display:block}
+.head_games .txt_logo{display:block;margin-top:6px;font-size:16px;color:#ababab}
+
+.menu_games{}
+.menu_games li{}
+.menu_games li + li{margin-top:17px}
+.menu_games .link_menu{font-weight:600;font-size:15px;letter-spacing:-0.025em;color:#000}
+.menu_games .on .link_menu{color:#e4b00e}
+
+.cont_games{overflow:hidden;min-height:100vh;padding:30px 35px;box-sizing:border-box}
+.cont_games .inner_cont:after{display:block;clear:both;content:""}
+.tit_cate{position:relative;margin-bottom:45px;padding-bottom:20px;font-size:36px}
+.tit_cate:after{position:absolute;left:0;bottom:0;width:34px;height:5px;background-color:#000;content:""}
+
+.foot_games{border-top:1px solid #efefef;text-align:right;}
+.foot_games .inner_foot{padding:10px 20px}
+.foot_games .copy_games{color:#d6d6d6}
+
+.list_visual{}
+.list_visual li{float:left;position:relative;width:545px;margin:0 0 50px 0}
+.list_visual li:nth-child(even){}
+.list_visual .num_visual{position:absolute;top:-33px;left:-14px;font-weight:bold;font-size:23px;color:#000;letter-spacing:0.02em;text-shadow: 2px 2px 0px rgba(255, 255, 255, 0.8);}
+.list_visual .area_thumb{overflow:hidden;float:left;width:250px;border:1px solid #c7c7c7;border-radius:10px;}
+.list_visual .area_info{overflow:hidden;padding:0 20px;}
+.list_visual .tit_visu{display:block;overflow:hidden;font-size:18px;text-overflow:ellipsis;white-space:nowrap}
+.list_visual .tag_game{display:inline-block;margin:-3px 6px 0 0;padding:5px 10px 2px;font-weight:bold;font-size:12px;border-radius:3px;background-color:#e4b00e;color:#fff;vertical-align:middle}
+.list_visual .tag_skill{display:inline-block;margin-right:6px;vertical-align:top;}
+.list_visual .txt_visu{height:38px;margin-top:10px;font-size:13px;color:#777}
+.list_visual .link_go{display:block;width:140px;height:47px;font-weight:bold;font-size:16px;line-height:50px;border:2px solid #000;border-radius:6px;text-decoration:none;text-align:center}
+.list_visual .link_go:hover{background-color:#000;color:#fff}
+.list_visual .txt_browser{font-weight:600;color:#e4b00e}
+.list_visual .txt_date{font-weight:600;color:#777;}
+.list_visual .group_btn{margin-top:10px}
+
+.list_info{overflow:hidden;margin-top:22px}
+.list_info dt{display:none}
+.list_info dd{float:left;padding-right:15px;}

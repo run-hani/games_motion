@@ -1,23 +1,36 @@
 <template>
-  <div id="app">
-    <img src="./assets/logo.png">
-    <router-view/>
+  <div id="app" class="wrap_games">
+    <app-header></app-header>
+
+      <router-view/>
+      <hr class="hide" />
+
+    <app-footer></app-footer>
   </div>
 </template>
 
 <script>
+import { mapState } from 'vuex'
+import AppHeader from '@/components/common/Header'
+import AppLnb from '@/components/common/Lnb'
+import AppFooter from '@/components/common/Footer'
+
 export default {
-  name: 'App'
+  name: 'App',
+  components: {
+    AppHeader,
+    AppLnb,
+    AppFooter
+  },
+  computed: {
+
+  },
+  created () {
+  
+  }
 }
 </script>
 
 <style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+
 </style>
