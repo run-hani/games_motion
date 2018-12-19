@@ -1,3 +1,6 @@
+/* font-face */
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
+
 /* reset */
 body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,textarea,p,blockquote,th,td,input,select,button{margin:0;padding:0}
 fieldset,img{border:0 none}
@@ -8,7 +11,7 @@ input,select,textarea,button{vertical-align:middle}
 input::-ms-clear{display:none}
 button{border:0 none;background-color:transparent;cursor:pointer}
 body{background:#fff}
-body,th,td,input,select,textarea,button{font-size:14px;line-height:1.5;font-family:AppleSDGothicNeo-Regular,'Malgun Gothic','맑은 고딕',dotum,'돋움',sans-serif;color:#212220}
+body,th,td,input,select,textarea,button{font-size:14px;line-height:1.5;font-family:'Noto Sans KR', AppleSDGothicNeo-Regular,'Malgun Gothic','맑은 고딕',dotum,'돋움',sans-serif;color:#212220}
 a{color:#333;text-decoration:none}
 a:active, a:hover{text-decoration:underline}
 a:active{background-color:transparent}
@@ -20,7 +23,7 @@ address,caption,cite,code,dfn,em,var{font-style:normal;font-weight:normal}
 .hide{display:none}
 .img_thumb{width:100%;vertical-align:top}
 
-.box_srch{margin-bottom:50px;}
+.box_srch{margin:-10px 0 50px}
 .box_srch .select_srch{display:inline-block;width:100px;height:38px;padding:0 10px;line-height:30px;font-size:14px;border:1px solid #000;vertical-align:top;box-sizing:border-box}
 .box_srch .tf_srch{display:inline-block;width:200px;height:38px;padding:0 10px;line-height:30px;border:1px solid #000;border-radius:5px;vertical-align:top;box-sizing:border-box}
 .box_srch{}
@@ -28,43 +31,71 @@ address,caption,cite,code,dfn,em,var{font-style:normal;font-weight:normal}
 .skipnavi{display:none}
 .wrap_games{min-width:1300px;padding-left:200px}
 
-.head_games{position:fixed;top:0;left:0;width:200px;height:100vh;z-index:100;padding:35px 20px;border-right:1px solid #efefef;background-color:#fff;box-sizing:border-box}
-.head_games .logo_games{margin-bottom:58px}
+.head_games{position:fixed;top:0;left:0;width:200px;height:100vh;z-index:100;padding:46px 20px;border-right:1px solid #efefef;background-color:#fff;box-sizing:border-box}
+.head_games .logo_games{margin-bottom:37px}
 .head_games .link_logo{display:block;text-decoration:none}
 .head_games .img_logo{display:block}
-.head_games .txt_logo{display:block;margin-top:6px;font-size:16px;color:#ababab}
+.head_games .txt_logo{display:block;margin-top:8px;font-size:16px;color:#ababab}
 
-.menu_games{}
-.menu_games li{}
-.menu_games li + li{margin-top:17px}
+.menu_games li + li{margin-top:22px}
 .menu_games .link_menu{font-weight:600;font-size:15px;letter-spacing:-0.025em;color:#000}
 .menu_games .on .link_menu{color:#e4b00e}
 
-.cont_games{overflow:hidden;min-height:100vh;padding:30px 35px;box-sizing:border-box}
+.cont_games{overflow:hidden;min-height:100vh;padding:35px 40px;box-sizing:border-box}
 .cont_games .inner_cont:after{display:block;clear:both;content:""}
 .tit_cate{position:relative;margin-bottom:45px;padding-bottom:20px;font-size:36px}
 .tit_cate:after{position:absolute;left:0;bottom:0;width:34px;height:5px;background-color:#000;content:""}
+.tit_section{padding-bottom:12px;font-size:20px}
+.txt_section{margin-bottom:42px;font-weight:bold;font-size:16px;letter-spacing:-0.025em}
 
 .foot_games{border-top:1px solid #efefef;text-align:right;}
 .foot_games .inner_foot{padding:10px 20px}
 .foot_games .copy_games{color:#d6d6d6}
 
-.list_visual{}
-.list_visual li{float:left;position:relative;width:545px;margin:0 0 50px 0}
-.list_visual li:nth-child(even){}
-.list_visual .num_visual{position:absolute;top:-33px;left:-14px;font-weight:bold;font-size:23px;color:#000;letter-spacing:0.02em;text-shadow: 2px 2px 0px rgba(255, 255, 255, 0.8);}
+.list_visual{margin-top:60px;clear:both}
+.list_visual li{float:left;position:relative;width:545px;margin:0 0 65px 0}
+.list_visual .num_visual{position:absolute;top:-37px;left:-14px;font-weight:bold;font-size:23px;color:#000;letter-spacing:0.02em;text-shadow: 2px 2px 0px rgba(255, 255, 255, 0.8);}
 .list_visual .area_thumb{overflow:hidden;float:left;width:250px;border:1px solid #c7c7c7;border-radius:10px;}
 .list_visual .area_info{overflow:hidden;padding:0 20px;}
-.list_visual .tit_visu{display:block;overflow:hidden;font-size:18px;text-overflow:ellipsis;white-space:nowrap}
-.list_visual .tag_game{display:inline-block;margin:-3px 6px 0 0;padding:5px 10px 2px;font-weight:bold;font-size:12px;border-radius:3px;background-color:#e4b00e;color:#fff;vertical-align:middle}
+.list_visual .tit_visu{display:block;overflow:hidden;font-weight:600;font-size:17px;text-overflow:ellipsis;white-space:nowrap;letter-spacing:-0.035em}
+.list_visual .tag_game{display:inline-block;margin:-2px 6px 0 0;padding:4px 10px;font-weight:400;font-size:12px;border-radius:3px;background-color:#e4b00e;color:#fff;vertical-align:middle}
 .list_visual .tag_skill{display:inline-block;margin-right:6px;vertical-align:top;}
 .list_visual .txt_visu{height:38px;margin-top:10px;font-size:13px;color:#777}
-.list_visual .link_go{display:block;width:140px;height:47px;font-weight:bold;font-size:16px;line-height:50px;border:2px solid #000;border-radius:6px;text-decoration:none;text-align:center}
+.list_visual .link_go{display:block;width:140px;height:47px;font-weight:bold;font-size:16px;line-height:47px;border:2px solid #000;border-radius:6px;text-decoration:none;text-align:center}
 .list_visual .link_go:hover{background-color:#000;color:#fff}
 .list_visual .txt_browser{font-weight:600;color:#e4b00e}
-.list_visual .txt_date{font-weight:600;color:#777;}
+.list_visual .txt_date{font-weight:600;color:#777}
 .list_visual .group_btn{margin-top:10px}
+
+.list_particle li{float:left;width:300px;margin:0 25px 35px 0}
+.list_particle .num_visual{position:absolute;top:8px;left:12px;font-weight:bold;font-size:23px;color:#fff;letter-spacing:0.02em}
+.list_particle .link_particle{display:block}
+.list_particle .area_thumb{display:block;overflow:hidden;position:relative;border:1px solid #cecece;border-radius:10px;box-sizing:border-box}
+.list_particle .area_info{display:block;overflow:hidden;padding:12px 0;line-height:24px}
+.list_particle .tit_particle{float:left;font-size:18px}
+.list_particle .txt_more{float:right;font-size:13px;color:#777}
+.list_particle .txt_type{position:absolute;right:8px;bottom:7px;padding:5px 10px 2px;font-weight:bold;font-size:12px;border-radius:3px 3px 8px 3px;background-color:#a2a1a1;color:#fff}
+.list_particle .img_thumb{height:180px}
 
 .list_info{overflow:hidden;margin-top:22px}
 .list_info dt{display:none}
-.list_info dd{float:left;padding-right:15px;}
+.list_info dd{float:left;padding-right:15px}
+
+.list_layers li + li{margin-top:28px}
+.list_layers [class*="link_layers"]{display:block;overflow:hidden;line-height:28px;text-decoration:none}
+.list_layers .tit_layers{float:left;min-width:50px;padding-right:10px;font-weight:bold;font-size:22px;}
+.list_layers .txt_layers{display:block;overflow:hidden;font-size:16px;color:#777}
+.list_layers .txt_bar{padding:0 6px;color:#b4b4b4}
+.list_layers .em_layer{color:#000}
+
+.list_spa{max-width:1200px}
+.list_spa li{font-size:20px;line-height:30px}
+.list_spa li + li{margin-top:30px}
+.list_spa .group_link{float:right}
+.list_spa .link_page{display:inline-block;font-size:16px}
+.list_spa .link_page + .link_page{margin-left:40px}
+
+.box_btn{display:table;float:left;position:relative;width:170px;height:146px;margin:0 70px 35px 0;border-radius:10px;box-sizing:border-box}
+.box_btn .inner_box{display:table-cell;padding-top:30px;text-align:center;vertical-align:middle;box-sizing:border-box}
+.box_btn .tit_box{position:absolute;top:8px;left:-13px;font-weight:bold;font-size:23px;color:#000;letter-spacing:0.02em}
+.box_btn .link_txt{position:absolute;top:14px;right:0;font-size:14px;color:#6e6e6e;text-decoration:underline;letter-spacing:0.02em}

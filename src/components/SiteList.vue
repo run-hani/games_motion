@@ -11,7 +11,7 @@
       <select class="select_srch" v-model="selGame">
         <option v-for="opt in gameType" :value="opt.value">{{ opt.label }}</option>
       </select>
-      <input type="text" class="tf_srch" v-model="search" placeholder="Search title.."/>
+      <input type="text" class="tf_srch" v-model="search" placeholder="사이트명 입력"/>
     </div>
     
 		<ul class="list_visual">
